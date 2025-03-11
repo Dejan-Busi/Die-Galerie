@@ -1,0 +1,343 @@
+body {
+  text-align: center;
+  background-color: rgba(161, 103, 15, 0.727);
+  color: rgba(0, 0, 0, 0.764);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 3vw;
+  overflow-x: hidden;
+}
+
+#registrieren_flexbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 3vw;
+}
+
+#introBanner {
+  background-color: white;
+  padding-block: 1vw;
+}
+
+#vanGogh {
+  object-fit: contain;
+  width: 20vw;
+}
+
+#daVinci {
+  object-fit: contain;
+  width: 15vw;
+}
+
+#vorteile_Registrieren {
+  background-color: white;
+  padding-block: 0.5vw;
+  padding-left: 40vw;
+  text-align: left;
+}
+
+p {
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.bewertungenResponse{
+  background-color: white;
+  margin-block: 2vw;
+  padding-inline: 1vw;
+}
+
+.portrait_Biographie{
+  border: solid;
+  border-color: white;
+  border-radius: 20px;
+  padding-inline: 3vw;
+
+}
+
+#logoutBar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  background-color: rgb(90, 255, 90);
+  font-size: large;
+  top: 0;
+  left: 20;
+  right: 0;
+  border-radius: 10px;
+}
+
+.painting {
+  width: 10vw;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.portrait {
+  width: 20vw;
+  object-fit: contain;
+}
+
+.portraitParagraph {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  text-align: left;
+}
+
+.bildKommentierenFrage{
+  background-color: white;
+  border-radius: 10px;
+  margin-inline: 10vw; 
+}
+
+.painting:hover {
+  scale: 1.1;
+}
+
+a {
+  display: contents;
+}
+
+.flexbox_reihe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.flexbox_Portrait {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 3vw;
+}
+
+.portrait_Page {
+  padding-inline: 20vw;
+}
+
+.Bewertung {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.radioButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+#textFeld {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Stylt die Radio Buttons */
+[type="radio"] {
+  appearance: none;
+  /* Entfernt das Standarddesign */
+  width: 20px;
+  margin-inline: 2vw;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+[type="radio"]:checked::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Wenn die Maus über das Symbol hovert, wird der Zeiger zu einer Hand */
+/* [type=radio]+img {
+  cursor: pointer;
+}
+
+[type=radio] {
+  width: 20px;
+  height: 20px;
+} */
+
+/* Erhellt die Bewertungssterne nachdem sie angeklickt wurden */
+/* .bewertungsStern[type=radio]:checked + img {
+  -webkit-filter: drop-shadow()
+                  drop-shadow();
+  filter: drop-shadow(0px 0px 5px rgb(255, 255, 255)) 
+          drop-shadow(0px 0px 5px rgb(255, 255, 255));
+          scale: 1.3;
+} */
+
+/* ///////////////////////////////////////////////////////// */
+
+@keyframes monaLisa {
+  0% {
+    left: -50%
+  }
+
+  100% {
+    left: 0%
+  }
+}
+
+@keyframes sternNacht {
+  0% {
+    right: -50%
+  }
+
+  100% {
+    right: 0%
+  }
+}
+
+@keyframes theKiss {
+  0% {
+    left: -50%
+  }
+
+  100% {
+    left: 0%
+  }
+}
+
+@keyframes girl {
+  0% {
+    right: -50%
+  }
+
+  100% {
+    right: 0%
+  }
+}
+
+@keyframes scream {
+  0% {
+    scale: 0;
+  }
+
+  100% {
+    scale: 1
+  }
+}
+
+@keyframes lastSupper {
+  0% {
+    scale: 0;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+@keyframes creationOfAdam {
+  0% {
+    left: -50%
+  }
+
+  100% {
+    left: 0%
+  }
+}
+
+@keyframes venus {
+  0% {
+    scale: 0;
+  }
+
+  100% {
+    scale: 1
+  }
+}
+
+#monaLisa {
+  position: relative;
+  animation-name: monaLisa;
+  animation-duration: 0.2s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#sternNacht {
+  position: relative;
+  animation-name: sternNacht;
+  animation-duration: 0.2s;
+  animation-delay: 0.4s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#theKiss {
+  position: relative;
+  animation-name: theKiss;
+  animation-duration: 0.2s;
+  animation-delay: 0.8s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#girl {
+  position: relative;
+  animation-name: girl;
+  animation-duration: 0.2s;
+  animation-delay: 1.2s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#scream {
+  position: relative;
+  animation-name: scream;
+  animation-duration: 0.2s;
+  animation-delay: 0.7s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#lastSupper {
+  position: relative;
+  animation-name: lastSupper;
+  animation-duration: 0.2s;
+  animation-delay: 1.8s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#creationOfAdam {
+  position: relative;
+  animation-name: creationOfAdam;
+  animation-duration: 0.2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#venus {
+  position: relative;
+  animation-name: venus;
+  animation-duration: 0.2s;
+  animation-delay: 0.3s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
