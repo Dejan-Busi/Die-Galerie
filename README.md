@@ -2,6 +2,7 @@ Authoren: Dejan, Daniela, Earl
 ------------------------------------------
 
 Betriebsanleitung:
+-----------------
 
 Schritt 1: Klonen Sie den Code in einem von Ihnen neu erstellten Ordner.
 
@@ -35,6 +36,6 @@ Letzter Schritt: Alle Container der App laufen jetzt und Sie können auf die App
 
 
 Wichtige Info:
-
+---------------
 Bitte vergewissern Sie, dass Sie beim Registrieren das Passwort zweimal übereinstimmend eingeben. Wenn das Passwort nicht übereinstimmt, stürzt das Programm aufgrund eines Errors, der nicht mehr rechtzeitig behoben werden konnte, ab.
 
