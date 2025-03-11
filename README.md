@@ -1,4 +1,5 @@
 Authoren: Dejan, Daniela, Earl
+------------------------------------------
 
 Betriebsanleitung:
 
