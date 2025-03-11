@@ -4,7 +4,7 @@ Authoren: Dejan, Daniela, Earl
 Betriebsanleitung:
 -----------------
 
-Schritt 1: Klonen Sie den Code in einem von Ihnen neu erstellten Ordner.
+Schritt 1: Klonen Sie das Repository in einem von Ihnen neu erstellten Ordner.
 
 ![image](https://github.com/user-attachments/assets/f3bd0c40-3cc9-4e09-a5dd-326413807173)
 
