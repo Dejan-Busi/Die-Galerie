@@ -24,11 +24,11 @@ Schritt 5: Vergewissern Sie, dass Docker-Desktop am laufen ist.
 
 ![image](https://github.com/user-attachments/assets/8b2caca4-b504-46d7-9388-26b7b360fab3)
 
-Schritt 6: Geben Sie den Befehl «docker-compose build» ein, damit die Images lokal auf Ihrem Gerät erstellt werden.
+Schritt 6: Geben Sie den Befehl «docker-compose build» ein, damit die Images lokal auf Ihrem Gerät erstellt werden. Die Images sind insgesamt 2.3Gb gross, der Vorgang wird somit einige Minuten dauern.
 
 ![image](https://github.com/user-attachments/assets/eec7f247-c466-4910-85b4-44d2d6462eb6)
 
-Schritt 7: Nachdem die Images erstellt wurden, können Sie die Container mit «docker-compose up» starten.
+Schritt 7: Nachdem die Images erstellt wurden, können Sie die Container mit «docker-compose up» starten. Dieser Vorgang dauert einige Minuten.
 
 ![image](https://github.com/user-attachments/assets/254a739b-80f0-41f8-92ae-969b058b2043)
 
