@@ -26,7 +26,7 @@ Anforderung: **Docker Desktop** installiert.<br/><br/>
 
 <img src="https://github.com/user-attachments/assets/bfe1119d-6ee2-4f34-8e75-d478647c71b4" width="500"> <br/><br/>
 
-**Schritt 7:** Geben Sie den Befehl **«docker-compose build»** ein, damit die Images lokal auf Ihrem Gerät erstellt werden. Die Images sind insgesamt **2.4Gb** gross, der Vorgang kann einige Minuten dauern.
+**Schritt 7:** Geben Sie den Befehl **«docker-compose build»** ein, damit die Images lokal auf Ihr Gerät erstellt werden. Die Images sind insgesamt **2.4Gb** gross, der Vorgang kann einige Minuten dauern.
 
 <img src="https://github.com/user-attachments/assets/39e9b79d-7fa1-44d8-8ba6-1b1add0b26d8" width="500"> <br/><br/>
 
