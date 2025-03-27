@@ -10,7 +10,7 @@ Anforderung: **Docker Desktop** installiert.<br/><br/>
 
 <img src="https://github.com/user-attachments/assets/7c64d3cd-0baf-4eaf-8d6d-e0918f17eac3" width="500"> <br/><br/>
 
-**Schritt 3:** Sämtliche notwendige Dateien und Ordnerstrukturen wurden bei Ihnen heruntergeladen.
+**Schritt 3:** Sämtliche erforderliche Dateien und Ordnerstrukturen wurden bei Ihnen heruntergeladen.
 
 <img src="https://github.com/user-attachments/assets/1ff4fb53-f628-4990-b922-a005138db4b7" width="500"> <br/><br/>
 
