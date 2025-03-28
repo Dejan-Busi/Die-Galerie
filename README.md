@@ -18,7 +18,7 @@ Anforderung: **Docker Desktop** installiert.<br/><br/>
 
 <img src="https://github.com/user-attachments/assets/93c79fd3-3e34-4d7c-a8f3-1f5def7a15ec" width="500"> <br/><br/>
 
-**Schritt 5:** Geben Sie anschliessend den Befehl **«code .»** ein, um den Ordner in ein neues Fenster zu öffnen. Sie können das alte Fenster schliessen.
+**Schritt 5:** Geben Sie den Befehl **«code .»** ein, um den Ordner in ein neues Fenster zu öffnen. Sie können das alte Fenster schliessen.
 
 <img src="https://github.com/user-attachments/assets/e54a1783-1ce5-4e3f-97f7-91ac7d63909d" width="500"> <br/><br/>
 
