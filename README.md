@@ -22,7 +22,7 @@ Anforderung: **Docker Desktop** installiert.<br/><br/>
 
 <img src="https://github.com/user-attachments/assets/e54a1783-1ce5-4e3f-97f7-91ac7d63909d" width="500"> <br/><br/>
 
-**Schritt 6:** Vergewissern Sie, dass **Docker Desktop** am laufen ist.
+**Schritt 6:** Vergewissern Sie, dass Sie **Docker Desktop** gestartet haben.
 
 <img src="https://github.com/user-attachments/assets/bfe1119d-6ee2-4f34-8e75-d478647c71b4" width="500"> <br/><br/>
 
