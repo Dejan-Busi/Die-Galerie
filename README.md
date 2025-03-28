@@ -30,7 +30,7 @@ Anforderung: **Docker Desktop** installiert.<br/><br/>
 
 <img src="https://github.com/user-attachments/assets/8f08caad-651e-45c3-9fe6-6df1191b4ace" width="500"> <br/><br/>
 
-**Letzter Schritt:** Wenn Sie diese Anzeige sehen, wurde alles **erfolgreich** installiert und gestartet. Sie können die App über die Localhost-Portnummer **4173** öffnen.
+**Letzter Schritt:** Wenn Sie diese Anzeige sehen, wurde alles **erfolgreich** installiert und gestartet. Sie können die App in Ihrem Browser über die Localhost-Portnummer **4173** öffnen.
 
 <img src="https://github.com/user-attachments/assets/7bd08404-4773-4abb-b170-beb1b5efbc77" width="500"> <br/><br/>
 
