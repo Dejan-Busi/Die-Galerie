@@ -12,25 +12,21 @@ Anforderung: **Docker Desktop** installiert.<br/><br/>
 
 **Schritt 3:** Sämtliche erforderliche Dateien und Ordnerstrukturen wurden bei Ihnen heruntergeladen.
 
-<img src="https://github.com/user-attachments/assets/1ff4fb53-f628-4990-b922-a005138db4b7" width="500"> <br/><br/>
+<img src="https://github.com/user-attachments/assets/fb83f5c7-3b73-489d-9872-1f5d00de6858" width="500"> <br/><br/>
 
 **Schritt 4:** Wechseln Sie das Verzeichnis mit **«cd .\Die-Galerie\»** in den geklonten Ordner.
 
 <img src="https://github.com/user-attachments/assets/93c79fd3-3e34-4d7c-a8f3-1f5def7a15ec" width="500"> <br/><br/>
 
-**Schritt 5:** Geben Sie den Befehl **«code .»** ein, um den Ordner in ein neues Fenster zu öffnen. Sie können das alte Fenster schliessen.
-
-<img src="https://github.com/user-attachments/assets/e54a1783-1ce5-4e3f-97f7-91ac7d63909d" width="500"> <br/><br/>
-
-**Schritt 6:** Vergewissern Sie, dass Sie **Docker Desktop** gestartet haben.
+**Schritt 5:** Vergewissern Sie, dass Sie **Docker Desktop** gestartet haben.
 
 <img src="https://github.com/user-attachments/assets/bfe1119d-6ee2-4f34-8e75-d478647c71b4" width="500"> <br/><br/>
 
-**Schritt 7:** Geben Sie den Befehl **«docker-compose build»** ein, damit die Images lokal auf Ihr Gerät erstellt werden. Die Images sind insgesamt **2.4Gb** gross, der Vorgang kann einige Minuten dauern.
+**Schritt 6:** Geben Sie den Befehl **«docker-compose build»** ein, damit die Images lokal auf Ihr Gerät erstellt werden. Die Images sind insgesamt **2.4Gb** gross, der Vorgang kann einige Minuten dauern.
 
-<img src="https://github.com/user-attachments/assets/39e9b79d-7fa1-44d8-8ba6-1b1add0b26d8" width="500"> <br/><br/>
+<img src="https://github.com/user-attachments/assets/14753e7c-6c9f-426a-a619-003c9dde8ca6" width="500"> <br/><br/>
 
-**Schritt 8:** Nachdem die Images erstellt wurden, können Sie die Container mit **«docker-compose up»** starten. Dieser Vorgang kann einige Minuten dauern.
+**Schritt 7:** Nachdem die Images erstellt wurden, können Sie die Container mit **«docker-compose up»** starten. Dieser Vorgang kann einige Minuten dauern.
 
 <img src="https://github.com/user-attachments/assets/8f08caad-651e-45c3-9fe6-6df1191b4ace" width="500"> <br/><br/>
 
