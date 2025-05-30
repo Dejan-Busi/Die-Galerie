@@ -1,0 +1,837 @@
+body {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.764);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  overflow-x: hidden;
+  background-image: url(Assets/Bilder/appBackground.webp);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#registrieren_flexbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 7rem;
+}
+
+#introBanner {
+  background-color: white;
+  padding-block: 1rem;
+  margin-block: 3rem;
+}
+
+#vanGogh {
+  object-fit: contain;
+  width: 15.2%;
+}
+
+#daVinci {
+  object-fit: contain;
+  width: 15%;
+}
+
+#kontaktHintergrund {
+  background-image: url(Assets/Bilder/kontaktHintergrund.webp);
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 125vh;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+#kontaktFormular {
+  position: relative;
+  top: 1.5rem;
+}
+
+#email {
+  font-size: 1.2rem;
+  width: 20%;
+  height: 10%;
+}
+
+#password {
+  font-size: 1.2rem;
+  width: 20%;
+  height: 10%;
+}
+
+#behindTheScenes {
+  position: relative;
+  background-image: url(Assets/Bilder/whiteBackground.webp);
+  background-size: cover;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.zurueckZurLobbyBehindTheScenes {
+  position: absolute;
+  text-decoration: underline;
+  color: blue;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  left: 100px;
+}
+
+.zurueckZurLobbyBehindTheScenes:hover {
+  scale: 1.1;
+}
+
+.arrowBackBehindTheScenes {
+  position: absolute;
+  width: 28%;
+  top: -10px;
+  left: -60px;
+}
+
+#dejan {
+  position: relative;
+  object-fit: contain;
+  height: fit-content;
+  margin: auto;
+  width: 28%;
+  background-color: rgba(68, 96, 221, 0.681);
+  padding: 2px;
+  animation-name: dejan;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes dejan {
+  0% {
+    right: 500px
+  }
+
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    right: 0px
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+#flexBox_behindTheScenes {
+  display: flex;
+  justify-content: center;
+  padding-inline: 20rem;
+}
+
+#motivText {
+  position: relative;
+  overflow-x: hidden;
+  height: fit-content;
+  text-align: left;
+  font-size: 1.4rem;
+  margin-inline: 3rem;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  animation: text 1s 1 forwards, colorChange 1s 1s 1 forwards;
+}
+
+@keyframes text {
+  0% {
+    left: 500px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: transparent
+  }
+
+  100% {
+    background-color: rgba(255, 253, 109, 0.393)
+  }
+}
+
+#flexBox_Technologien_Oben {
+  position: relative;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  animation-name: technologien_Oben;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes technologien_Oben {
+  0% {
+    right: 1000px;
+    opacity: 0
+  }
+
+  100% {
+    right: 0px;
+    opacity: 1
+  }
+}
+
+#flexBox_Technologien_Unten {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+  animation-name: technologien_Unten;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes technologien_Unten {
+  0% {
+    left: 1000px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0px;
+    opacity: 1
+  }
+}
+
+#Vite_React {
+  width: 11%;
+  object-fit: contain;
+  padding-inline: 3rem;
+}
+
+#ASPNET {
+  object-fit: contain;
+  width: 8%;
+  padding-inline: 3rem;
+}
+
+#entityFramework {
+  object-fit: contain;
+  width: 8%;
+  padding-inline: 3rem;
+}
+
+#sqlServer {
+  object-fit: contain;
+  width: 11%;
+  padding-inline: 3rem;
+}
+
+#jwt {
+  object-fit: contain;
+  width: 14%;
+  padding-inline: 2rem;
+}
+
+#verwendete_Technologien {
+  background-color: rgb(138, 174, 186);
+  padding-block: 1rem;
+}
+
+.button {
+  width: 150px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.button:hover {
+  background-color: rgb(255, 255, 194);
+}
+
+.loadingSymbol {
+  width: 13%;
+  animation-name: loadingSymbolRotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loadingSymbolRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#anrede {
+  font-size: 1.2rem;
+  height: 10%;
+}
+
+.inputField {
+  font-size: 1.2rem;
+  width: 20%;
+  height: 10%;
+}
+
+#nachricht {
+  font-size: 1.2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.formularLabels {
+  font-size: 1.2rem;
+}
+
+#startSeiteFlexbox {
+  display: flex;
+  justify-content: center;
+}
+
+#behind_the_Scenes {
+  position: relative;
+  border: solid;
+  border-color: lightcoral;
+  background-color: white;
+  padding-inline: 5.5rem;
+  margin-inline: 3rem;
+}
+
+#vorteile_Registrieren {
+  border: solid;
+  border-color: lightgreen;
+  background-color: white;
+  text-align: left;
+  padding-inline: 1.5rem;
+  margin-inline: 3rem;
+}
+
+#vorgeschmack_App {
+  position: relative;
+  border: solid;
+  border-color: blue;
+  background-color: white;
+  padding-inline: 2rem;
+  margin-inline: 3rem;
+}
+
+.kommentare {
+  position: relative;
+  background-color: white;
+  margin-block: 2rem;
+  padding-inline: 1rem;
+  word-wrap: break-word;
+}
+
+.kommentarFelder {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.trashBin {
+  border: solid;
+  border-radius: 10px;
+  padding-inline: 0.5rem;
+  padding: 0.2rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 4.6%;
+}
+
+.trashBin:hover {
+  scale: 1.1;
+}
+
+#ladeBildschirm {
+  position: relative;
+  display: inline;
+  top: 30vh;
+  color: white;
+  font-size: 4rem;
+}
+
+#ladeSymbol {
+  position: absolute;
+  width: 5rem;
+  top: 110px;
+  right: 80px;
+  animation-name: ladeSymbol;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ladeSymbol {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pen {
+  border: solid;
+  border-radius: 10px;
+  padding: 0.2rem;
+  position: absolute;
+  top: 10px;
+  right: 85px;
+  width: 5%;
+}
+
+.pen:hover {
+  scale: 1.1;
+}
+
+.check {
+  border: solid;
+  border-radius: 10px;
+  padding: 0.2rem;
+  position: absolute;
+  top: 10px;
+  right: 80px;
+  width: 4.7%;
+}
+
+.check:hover {
+  scale: 1.1;
+}
+
+.portrait_Biographie {
+  position: relative;
+  border: solid;
+  border-color: white;
+  border-radius: 20px;
+  padding-inline: 3rem;
+}
+
+#logoutBarGreen {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(90, 255, 90);
+  font-size: large;
+  top: 0;
+  right: 0;
+  border-radius: 0px 0px 0px 7px;
+}
+
+#logoutBarRed {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background-color: lightcoral;
+  font-size: large;
+  top: 0;
+  right: 0;
+  border-radius: 0px 0px 0px 7px;
+}
+
+.paintingLobby {
+  width: 10%;
+  object-fit: contain;
+  transition: 0.3s;
+}
+
+.paintingLobby:hover {
+  scale: 1.1;
+}
+
+.portrait {
+  width: 35%;
+  object-fit: contain;
+}
+
+.portrait_horizontal {
+  justify-self: center;
+  width: 55%;
+  margin-block: 2rem;
+}
+
+.portraitParagraph {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
+  background-color: white;
+  border-radius: 10px;
+  padding-inline: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bildKommentierenFrage {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  margin-inline: 10rem;
+  padding-top: 0.5em;
+  margin-bottom: 3rem;
+}
+
+.bildKommentierenFrage:hover {
+  background-color: lightgoldenrodyellow;
+  transform: 1s;
+}
+
+a {
+  display: contents;
+  height: fit-content;
+}
+
+.zurueckZurLobby {
+  position: absolute;
+  text-decoration: underline;
+  color: lightblue;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  left: -230px;
+}
+
+.zurueckZurLobby:hover {
+  scale: 1.1;
+}
+
+.arrowBack {
+  position: absolute;
+  width: 27%;
+  top: -10px;
+  left: -60px;
+}
+
+.navLink {
+  position: relative;
+  text-decoration: underline;
+  color: blue;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.navLink:hover {
+  scale: 1.1;
+}
+
+#actionClapperSignup {
+  position: absolute;
+  width: 24%;
+  left: 250px;
+  top: -10px;
+}
+
+#actionClapperLobby {
+  position: absolute;
+  width: 43%;
+  left: 52px;
+  bottom: 35px;
+}
+
+#previewEye {
+  position: absolute;
+  width: 65%;
+  left: 115px;
+  top: -10px;
+}
+
+#kontaktSeiteNavLink {
+  position: relative;
+  text-decoration: underline;
+  color: blue;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#kontaktSeiteNavLink:hover {
+  scale: 1.1;
+}
+
+#kontaktSeiteArrowBack {
+  position: absolute;
+  width: 27%;
+  top: -10px;
+  left: -60px;
+}
+
+.feder {
+  position: absolute;
+  width: 30%;
+  right: -55px;
+  top: -15px;
+}
+
+h2 {
+  color: white;
+}
+
+#lobbyNavigation {
+  background-color: lightblue;
+  padding-block: 0.2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+}
+
+.flexbox_reihe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.flexbox_Portrait {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 3rem;
+}
+
+.flexbox_Portrait_horizontal {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 3rem;
+}
+
+.portrait_Page {
+  padding-inline: 20rem;
+}
+
+.Note {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.radioButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.kommentarFormular {
+  background-color: rgba(60, 205, 203, 0.7);
+  padding-block: 1rem;
+  margin-inline: 5rem;
+  border: solid;
+  border-color: white;
+  border-radius: 20px;
+}
+
+#rememberMe {
+  position: relative;
+  text-align: center;
+}
+
+.kommentarListe {
+  border: solid;
+  border-color: white;
+  border-radius: 20px;
+  padding-inline: 3rem;
+  margin-inline: 10rem;
+}
+
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  top: 15px;
+  height: 40px;
+  width: 20px;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 3px;
+}
+
+#textFeld {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+[type="radio"] {
+  appearance: none;
+  width: 20px;
+  margin-inline: 2rem;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+[type="radio"]:checked::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+@keyframes monaLisa {
+  0% {
+    left: -50%
+  }
+
+  100% {
+    left: 0%
+  }
+}
+
+@keyframes sternenNacht {
+  0% {
+    right: -50%
+  }
+
+  100% {
+    right: 0%
+  }
+}
+
+@keyframes theKiss {
+  0% {
+    left: -50%
+  }
+
+  100% {
+    left: 0%
+  }
+}
+
+@keyframes girl {
+  0% {
+    right: -50%
+  }
+
+  100% {
+    right: 0%
+  }
+}
+
+@keyframes scream {
+  0% {
+    scale: 0;
+  }
+
+  100% {
+    scale: 1
+  }
+}
+
+@keyframes lastSupper {
+  0% {
+    scale: 0;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+@keyframes creationOfAdam {
+  0% {
+    left: -50%
+  }
+
+  100% {
+    left: 0%
+  }
+}
+
+@keyframes venus {
+  0% {
+    scale: 0;
+  }
+
+  100% {
+    scale: 1
+  }
+}
+
+#monaLisa {
+  position: relative;
+  animation-name: monaLisa;
+  animation-duration: 0.2s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#sternenNacht {
+  position: relative;
+  animation-name: sternenNacht;
+  animation-duration: 0.2s;
+  animation-delay: 0.4s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#theKiss {
+  position: relative;
+  animation-name: theKiss;
+  animation-duration: 0.2s;
+  animation-delay: 0.8s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#girl {
+  position: relative;
+  animation-name: girl;
+  animation-duration: 0.2s;
+  animation-delay: 1.2s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#scream {
+  position: relative;
+  animation-name: scream;
+  animation-duration: 0.2s;
+  animation-delay: 0.7s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#lastSupper {
+  position: relative;
+  animation-name: lastSupper;
+  animation-duration: 0.2s;
+  animation-delay: 1.8s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#creationOfAdam {
+  position: relative;
+  animation-name: creationOfAdam;
+  animation-duration: 0.2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+#venus {
+  position: relative;
+  animation-name: venus;
+  animation-duration: 0.2s;
+  animation-delay: 0.3s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}

@@ -1,0 +1,53 @@
+services:
+  frontend:
+    build: ./Frontend
+    image: dejanbusi/galerie:frontend
+    container_name: frontend
+    ports:
+      - 4173:4173
+    networks:
+      - myNetwork
+    depends_on:
+      - backend
+    restart: on-failure
+
+  backend:
+    build: ./Backend
+    image: dejanbusi/galerie:backend
+    container_name: backend
+    ports:
+      - 8080:8080
+      - 8081:8081 
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=mssql;Database=${DB_NAME};User Id=${DB_USERID};Password=${SA_PASSWORD};TrustServerCertificate=True;
+      - JWT__Issuer=${JWT_ISSUER}
+      - JWT__Audience=${JWT_AUDIENCE}
+      - JWT__SigningKey=${JWT_SIGNING_KEY}
+      - AllowedHosts=*
+      - ASPNETCORE_ENVIRONMENT=Production
+    networks:
+      - myNetwork
+    depends_on:
+      - mssql
+    restart: on-failure
+
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: database
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=${SA_PASSWORD}
+    ports:
+      - 1433:1433
+    networks:
+      - myNetwork
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    restart: on-failure
+
+networks:
+  myNetwork:
+
+volumes:
+  sqlserver_data:
+
