@@ -1,3 +1,12 @@
+Einführung
+---------------------------
+**Stand: April 2025**<br/><br/>
+Die Galerie ist eine kleine Full-Stack-Anwendung, die ich im Frühjahr 2025 als Hobby-Projekt entwickelt hatte. Ziel war es, eine Web-App mit Frontend, Backend, einer Datenbank, der Implementierung aller CRUD-Operationen, einer einfachen Form der Authentifizierung, sowie einer stylischen Benutzeroberfläche zu entwickeln, um meine Junior-Programmierkenntnisse nachzuweisen. Dem Benutzer wird eine Galerie präsentiert, die eine Auswahl weltberühmter Gemälde bereitstellt. Diese kann er anklicken und eine kurze Geschichte zum jeweiligen Gemälde lesen. Der Benutzer kann sich zudem registrieren und anschliessend einloggen, wodurch die gesamte Auswahl der Gemälde freigeschaltet wird. Zusätzlich erhält er dadurch die Möglichkeit, die Gemälde zu bewerten und zu kommentieren.<br/><br/> **Info:** Die Eingaben des Users werden auf **keinem** externen Server hochgeladen.
+
+<img width="1000" alt="Die-Galerie top" src="https://github.com/user-attachments/assets/9c5398e7-fb66-46f3-872d-40debc89b865" />
+<br/>
+<img width="1000" alt="Die-Galerie bottom" src="https://github.com/user-attachments/assets/64e48b83-7be0-42e8-bc4e-c4771ecb875f" />
+
 Installationsanleitung
 ---------------------------
 Voraussetzung: Sie haben **Docker Desktop** auf Ihr Gerät installiert <img src="https://github.com/user-attachments/assets/d4f1a116-dbe5-4773-9f57-c8247670b7f6" width="180">  <br/><br/>
